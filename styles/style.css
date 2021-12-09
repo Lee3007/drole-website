@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+:root{
+  --cinza-principal: #111113;
+  --cinza-secund: #383838;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+  background-color: var(--cinza-principal);
+}
+
+.initial-card{
+  background: url(../imgs/carl_background.png);
+  background-position: center;
+  
+  height: 100vh;
+  width: 100%;
+
+}
+
+.dark-filter{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-position: center;
+  background-blend-mode: darken;
+  opacity: 0.7;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 80px;
+  text-align: center;
+  /* text-shadow: 1px 1px 6px white; */
+  font-weight: 300;
+}
+
+.subtitle{
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  /* text-shadow: 1px 1px 6px white; */
+}
+
+.server-content{
+  background-color: var(--cinza-principal);
+}
+
+.header{
+  color: #e1e1e6;
+  font-weight: 500;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 90px;
+  border-left: 5px solid #fcde67;
+  padding: 6px;
+  padding-left: 15px;
+}
+
+.divider-horizontal{
+  height: 1px;
+  width: 100%;
+  background-color: #434347;
+  
+}
+
+.container-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+
+.card{
+  height: 600px;
+  width: 400px;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: var(--cinza-secund);
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-icon{
+  text-align: center;  
+  background-color: var(--cinza-secund);
+  font-size: 60px;
+  padding: 30px;
+}
+
+.card-title{
+  background-color: var(--cinza-secund);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.card-content{
+  background-color: var(--cinza-secund);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}

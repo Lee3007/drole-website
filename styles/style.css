@@ -21,21 +21,20 @@
 }
 
 .initial-card{
-  background: url(../imgs/carl_background.png);
+  background: rgba(0, 0, 0, 0.35)url(../imgs/carl_background.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-blend-mode: darken;
   
   height: 100vh;
   width: 100%;
 
 }
 
-.dark-filter{
+.card-area{
   width: 100%;
   height: 100%;
-  background-color: black;
-  background-position: center;
-  background-blend-mode: darken;
+
   opacity: 0.7;
 }
 
@@ -133,4 +132,44 @@
   font-size: 25px;
   font-weight: 300;
   letter-spacing: 2px;
+}
+
+.users-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e1e1e6;
+
+}
+
+.user{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  background-color: var(--cinza-secund);
+  border: transparent solid 0px;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.user-image{
+  height: 120px;
+  width: 120px;
+  border: #e1e1e6 solid 0px;
+  border-radius: 100%;
+  margin-right: 50px;
+}
+
+.r3solv-profpic{
+  background-image: url(../imgs/r3solv-profpic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user-description{
+  font-size: 25px;
+  font-weight: 400;
+  text-align: justify;
+
 }

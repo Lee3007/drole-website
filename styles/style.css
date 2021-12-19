@@ -79,8 +79,8 @@
 .container-divider{
   display: flex;
   justify-content: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .divider-horizontal{
@@ -138,8 +138,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #e1e1e6;
+  background-color: var(--cinza-principal);
 
+}
+
+.users-header{
+  margin-bottom: 50px;
 }
 
 .user{
@@ -151,6 +155,8 @@
   border: transparent solid 0px;
   border-radius: 5px;
   padding: 30px;
+  margin-bottom: 50px;
+  width: 800px;
 }
 
 .user-image{
@@ -158,18 +164,42 @@
   width: 120px;
   border: #e1e1e6 solid 0px;
   border-radius: 100%;
-  margin-right: 50px;
-}
-
-.r3solv-profpic{
-  background-image: url(../imgs/r3solv-profpic.jpg);
+  margin-right: 30px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.r3solv-profpic{
+  background-image: url(../imgs/r3solv-profpic.jpg);
+
+}
+
 .user-description{
-  font-size: 25px;
+  margin-top: 5px;
+  font-size: 20px;
   font-weight: 400;
   text-align: justify;
+  background-color: var(--cinza-secund);
+  word-spacing: 0.8px;
+}
 
+.user-text{
+  background-color: var(--cinza-secund);
+  width: 80%;
+}
+
+.user-title{
+  background-color: var(--cinza-secund);
+  font-size: 35px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.etore-profpic{
+  background-image: url(../imgs/etore-profpic.png);
+
+}
+
+.luis-profpic{
+  background-image: url(../imgs/luis-profpic.png);
 }
